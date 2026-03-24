@@ -55,11 +55,38 @@ This is a true positive
 
 <img width="747" height="507" alt="image" src="https://github.com/user-attachments/assets/76400121-4ba0-4ec6-8711-d3f65ffc817e" />                       <img width="737" height="101" alt="image" src="https://github.com/user-attachments/assets/5cfc7c06-6b40-4b76-989d-b0b2460fc08b" />
 
+3. 8814                                                                     Inbound Email Containing Suspicious External Link
+
+Description:
+
+This alert was triggered by an inbound email contains one or more external links due to potentially suspicious characteristics. As part of the investigation, check firewall or proxy logs to determine whether any endpoints have attempted to access the URLs in the email and whether those connections were allowed or blocked.
 
 
+Datasource: Email
+Timestamp: 03/24/2026 12:35:33
+Sender: onboarding@hrconnex.thm
+Recipient: j.garcia@thetrydaily.thm
+Subject: Action Required: Finalize Your Onboarding Profile
+Attachment: None
+Direction: Inbound
 
+This is a false positive report
+<img width="963" height="636" alt="image" src="https://github.com/user-attachments/assets/008292a9-18c7-438b-9d76-1647dd60d563" />
+<img width="427" height="468" alt="image" src="https://github.com/user-attachments/assets/45db982b-2fa5-4d25-a17d-9422f763d27b" />
 
+4. 8817                                    Inbound Email Containing Suspicious External Link
 
+Description:
+
+This alert was triggered by an inbound email contains one or more external links due to potentially suspicious characteristics. As part of the investigation, check firewall or proxy logs to determine whether any endpoints have attempted to access the URLs in the email and whether those connections were allowed or blocked.
+
+Datasource: Email
+Timestamp: 03/24/2026 12:41:04
+Sender: no-reply@m1crosoftsupport.co
+Recipient: c.allen@thetrydaily.thm
+Subject: Unusual Sign-In Activity on Your Microsoft Account
+Attachment: None
+Direction: Inbound
 
 
 
